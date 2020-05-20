@@ -27,7 +27,7 @@ export default function Header() {
   // header above the page with bluestacks logo
   return (
     <header className="Header">
-      <img src="assets/bluestacks.png" className="Logo" alt="logo" />
+      <img src={`${process.env.PUBLIC_URL}/assets/bluestacks.png`} className="Logo" alt="logo" />
     </header>
   );
 }

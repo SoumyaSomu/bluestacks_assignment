@@ -15,9 +15,8 @@ i18n
   // init i18next
   .init({
     fallbackLng: 'en',
-    backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json",
-      crossDomain: false
+     backend: {
+      loadPath:  '/public/locales/{{lng}}/{{ns}}.json'
     },
     debug: true,
     whiteList : lng,
