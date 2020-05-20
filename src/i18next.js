@@ -16,7 +16,7 @@ i18n
   .init({
     fallbackLng: 'en',
      backend: {
-      loadPath:  '/public/locales/{{lng}}/{{ns}}.json'
+      loadPath:  `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`
     },
     debug: true,
     whiteList : lng,
