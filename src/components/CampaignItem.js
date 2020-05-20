@@ -26,7 +26,7 @@ const CampaignItem = (props) => {
 		    </td>
 		    <td>
 		      <div className="display-flex">
-		        <img className="games-image" src={props.item.image_url}/>
+		        <img className="games-image" src={`${process.env.PUBLIC_URL}/${props.item.image_url}`}/>
 		        <span className="display-grid pl-18">
 		          <span className="fw-500 fs-14 heading-color">{props.item.name}</span>
 		          <span className="fs-12 fs-italic sub-heading-color">{props.item.region}</span>
@@ -40,7 +40,7 @@ const CampaignItem = (props) => {
                  	{close => (
                  	<div>
                  		<div>
-                 			<img className="popup-image" src={props.item.image_url}/>
+                 			<img className="popup-image" src={`${process.env.PUBLIC_URL}/${props.item.image_url}`}/>
                  			<div className="position-relative ml-28percent">
 	                 			<p className="fw-500 fs-14 heading-color position-absolute bottom-0 left-8">{props.item.name}</p>
 			                    <span className="fs-12 fs-italic sub-heading-color position-absolute bottom-0 left-8">{props.item.region}</span>
