@@ -1,0 +1,365 @@
+td {
+  text-align: inherit;
+  padding: 10px 3px;
+  padding-left: 30px;
+}
+
+th{
+  padding: 6px 3px;
+  color: #76839F;
+  padding-left: 30px;
+}
+
+tr {
+  margin-left: 2px;
+}
+
+thead{
+  background-color: #F1F1F4;
+}
+
+table {
+  border: 2px solid #F1F1F4;
+}
+
+.pl-18{
+  padding-left: 18px;
+}
+
+.ml-12{
+  margin-left: 12px;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.ml-18{
+  margin-left: 18px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.mt-24{
+  margin-top: 24px;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+.ml-28percent{
+  margin-left: 28%;
+}
+
+.overflowx-auto{
+  overflow-x: auto;
+}
+
+.border-bottom{
+  margin-left: 5px;
+}
+
+.display-grid{
+  display: grid;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.float-right{
+  float: right;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.bottom-0{
+  bottom: 0!important;
+}
+
+.left-8{
+  left: 8px!important;
+}
+
+.position-absolute{
+  position: absolute!important;
+}
+
+.position-relative{
+  position: relative!important;
+}
+
+.games-image{
+  width: 44px;
+}
+
+.pricing-image{
+  width : 22px;
+}
+
+.actions-image{
+  width: 20px;
+}
+
+.popup-image{
+  width: 90px;
+}
+
+.heading-color{
+  color: #6C7B99;
+}
+
+.sub-heading-color{
+  color: #97A4B9;
+}
+
+.table-heading{
+  margin-bottom: 18px;
+  color: #282c34;
+  font-weight: 700;
+}
+
+.fs-14{
+  font-size: 14px;
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+.fw-500{
+  font-weight: 500;
+}
+
+.fs-italic{
+  font-style: italic;
+}
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #069;
+  cursor: pointer;
+}
+
+.popup-content{
+  width: 26%!important;
+}
+
+.react-tabs{
+  padding-top: 32px;
+}
+
+.react-tabs__tab {
+  border: none;
+  border-bottom: 1px solid transparent!important;
+  padding: 10px 22px;
+  color: #6C7B99!important;
+}
+
+.react-tabs__tab--selected {
+  border-color: #86A726!important;
+  color: #86A726!important;
+  border-radius: none!important;
+  border-width: 5px!important;
+}
+
+.example-custom-input {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #216ba5;
+    font: inherit;
+    color: #fff;
+}
+
+.reshedule-campaign{
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+
+.save-schedule-date{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lang-div{
+  width: 100%;
+  padding: 5% 5% 0% 7%;
+  background-color: #80808087;
+}
+
+.lang-label{
+  font-size: 15px;
+  color: #282c34;
+  margin-right: 15px;
+}
+
+.ml-20{
+
+}
+
+.mt-5{
+
+}
+
+/* Media query for mobile view */
+
+@media 
+only screen and (max-width: 760px){
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding-left: 30%;
+    color: #6e7d9a;
+    font-weight: 500;
+  }
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before { content: "DATE"; }
+  td:nth-of-type(2):before { content: "CAMPAIGN"; }
+  td:nth-of-type(3):before { content: "VIEW"; }
+  td:nth-of-type(4):before { content: "ACTIONS"; }
+
+  .actions-image{
+    width: 16px;
+  }
+
+  .react-tabs__tab-list {
+    border-bottom: none;
+  }
+
+  .react-tabs__tab {
+    padding: 4px 6px!important;
+  }
+
+  .ml-10{
+    margin-left: 0px;
+  }
+
+  .ml-20{
+    margin-left: 20px;
+  }
+
+   .mt-5{
+    margin-top: 0px;
+  }
+
+  .popup-content {
+    width: 95%!important;
+  }
+
+  .lang-div{
+    padding: 18% 5% 0% 7%;
+  }
+}
+
+/* Media query for ipad view */
+
+@media 
+only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding-left: 30%;
+    color: #6e7d9a;
+    font-weight: 500;
+  }
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before { content: "DATE"; }
+  td:nth-of-type(2):before { content: "CAMPAIGN"; }
+  td:nth-of-type(3):before { content: "VIEW"; }
+  td:nth-of-type(4):before { content: "ACTIONS"; }
+
+  .actions-image{
+    width: 18px;
+  }
+
+  .pricing-image {
+    width: 26px;
+  }
+
+  .react-tabs__tab-list {
+    border-bottom: none;
+  }
+
+  .react-tabs__tab {
+    padding: 4px 6px!important;
+  }
+
+  .ml-10{
+    margin-left: 8px;
+  }
+
+  .mt-5{
+    margin-top: 5px;
+  }
+
+  .popup-content {
+    width: 45%!important;
+  }
+
+  .lang-div{
+    padding: 8% 5% 0% 7%;
+  }
+}

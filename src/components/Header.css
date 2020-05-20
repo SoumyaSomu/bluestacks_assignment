@@ -1,0 +1,19 @@
+.Header {
+  position: fixed;
+  top: 0; /* Stick it to the top */
+  max-height: 76px;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: "logo nav";
+  background-color: #282c34;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Logo {
+  grid-area: logo;
+  height: 64px;
+  margin-left: 14%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
