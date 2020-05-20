@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bluestacks_assignment/static/css/main.661f3518.chunk.css",
+    "main.js": "/bluestacks_assignment/static/js/main.c706c1c9.chunk.js",
+    "main.js.map": "/bluestacks_assignment/static/js/main.c706c1c9.chunk.js.map",
+    "runtime-main.js": "/bluestacks_assignment/static/js/runtime-main.e07e4853.js",
+    "runtime-main.js.map": "/bluestacks_assignment/static/js/runtime-main.e07e4853.js.map",
+    "static/css/2.abe18057.chunk.css": "/bluestacks_assignment/static/css/2.abe18057.chunk.css",
+    "static/js/2.5f72cd22.chunk.js": "/bluestacks_assignment/static/js/2.5f72cd22.chunk.js",
+    "static/js/2.5f72cd22.chunk.js.map": "/bluestacks_assignment/static/js/2.5f72cd22.chunk.js.map",
+    "index.html": "/bluestacks_assignment/index.html",
+    "precache-manifest.38a19467b696f4509bc56df29aa996c6.js": "/bluestacks_assignment/precache-manifest.38a19467b696f4509bc56df29aa996c6.js",
+    "service-worker.js": "/bluestacks_assignment/service-worker.js",
+    "static/css/2.abe18057.chunk.css.map": "/bluestacks_assignment/static/css/2.abe18057.chunk.css.map",
+    "static/css/main.661f3518.chunk.css.map": "/bluestacks_assignment/static/css/main.661f3518.chunk.css.map",
+    "static/js/2.5f72cd22.chunk.js.LICENSE.txt": "/bluestacks_assignment/static/js/2.5f72cd22.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/bluestacks_assignment/static/media/getFetch.5e98861f.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e07e4853.js",
+    "static/css/2.abe18057.chunk.css",
+    "static/js/2.5f72cd22.chunk.js",
+    "static/css/main.661f3518.chunk.css",
+    "static/js/main.c706c1c9.chunk.js"
+  ]
+}
